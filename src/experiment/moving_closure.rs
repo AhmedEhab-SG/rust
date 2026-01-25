@@ -10,7 +10,7 @@ struct User {
 }
 
 impl Trial {
-    pub fn move_test() {
+    pub fn moving_closures() {
         let text = "test".to_string();
 
         let closure = |x: &String| println!("{}", x);
@@ -38,8 +38,8 @@ impl Trial {
     }
 }
 
-impl Runable for Trial {
-    fn run() {
-        Self::move_test()
-    }
-}
+// impl Runable for Trial {
+//     fn run() {
+//         Self::moving_closures()
+//     }
+// }
