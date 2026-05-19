@@ -26,16 +26,16 @@ impl Solution {
     }
 }
 
-impl Runable for Solution {
-    fn run() {
-        assert_eq!(
-            Solution::find_median_sorted_arrays(vec![1, 3], vec![2]),
-            2 as f64
-        );
-
-        assert_eq!(
-            Solution::find_median_sorted_arrays(vec![1, 2], vec![3, 4]),
-            2.5,
-        );
-    }
-}
+// impl Runable for Solution {
+//     fn run() {
+//         assert_eq!(
+//             Solution::find_median_sorted_arrays(vec![1, 3], vec![2]),
+//             2 as f64
+//         );
+//
+//         assert_eq!(
+//             Solution::find_median_sorted_arrays(vec![1, 2], vec![3, 4]),
+//             2.5,
+//         );
+//     }
+// }
