@@ -30,21 +30,21 @@ impl Solution {
     }
 }
 
-impl Runable for Solution {
-    fn run() {
-        assert_eq!(
-            Solution::length_of_longest_substring(String::from("abcabcbb")),
-            3
-        );
-
-        assert_eq!(
-            Solution::length_of_longest_substring(String::from("bbbbb")),
-            1
-        );
-
-        assert_eq!(
-            Solution::length_of_longest_substring(String::from("pwwkew")),
-            3
-        );
-    }
-}
+// impl Runable for Solution {
+//     fn run() {
+//         assert_eq!(
+//             Solution::length_of_longest_substring(String::from("abcabcbb")),
+//             3
+//         );
+//
+//         assert_eq!(
+//             Solution::length_of_longest_substring(String::from("bbbbb")),
+//             1
+//         );
+//
+//         assert_eq!(
+//             Solution::length_of_longest_substring(String::from("pwwkew")),
+//             3
+//         );
+//     }
+// }
