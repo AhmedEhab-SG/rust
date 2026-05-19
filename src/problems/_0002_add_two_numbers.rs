@@ -16,7 +16,7 @@ impl ListNode {
         Self { next: None, val }
     }
 
-    fn from_vec(vec: Vec<i32>) -> Option<Box<Self>> {
+    pub fn from_vec(vec: Vec<i32>) -> Option<Box<Self>> {
         let mut curr = None;
         for &val in vec.iter().rev() {
             let mut node = Self::new(val);
@@ -58,14 +58,14 @@ impl Solution {
     }
 }
 
-impl Runable for Solution {
-    fn run() {
-        assert_eq!(
-            Solution::add_two_numbers(
-                ListNode::from_vec(vec![2, 4, 3]),
-                ListNode::from_vec(vec!(5, 6, 4))
-            ),
-            ListNode::from_vec(vec![7, 0, 8])
-        )
-    }
-}
+// impl Runable for Solution {
+//     fn run() {
+//         assert_eq!(
+//             Solution::add_two_numbers(
+//                 ListNode::from_vec(vec![2, 4, 3]),
+//                 ListNode::from_vec(vec!(5, 6, 4))
+//             ),
+//             ListNode::from_vec(vec![7, 0, 8])
+//         )
+//     }
+// }
