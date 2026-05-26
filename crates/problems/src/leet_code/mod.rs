@@ -3,3 +3,5 @@ mod _0002_add_two_numbers;
 mod _0003_longest_substing_without_repeating_characters;
 mod _0004_madien_of_two_sorted_arrays;
 mod _0005_longest_palindromic_substring;
+mod _0217_contains_duplicate;
+mod _0242_vaild_anagram;

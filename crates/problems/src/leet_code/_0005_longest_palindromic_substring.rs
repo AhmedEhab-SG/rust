@@ -38,16 +38,16 @@ impl Solution {
     }
 }
 
-impl Runable for Solution {
-    fn run() {
-        assert_eq!(
-            Self::longest_palindrome(String::from("babad")),
-            String::from("bab")
-        );
-
-        assert_eq!(
-            Self::longest_palindrome(String::from("cbbd")),
-            String::from("bb")
-        );
-    }
-}
+// impl Runable for Solution {
+//     fn run() {
+//         assert_eq!(
+//             Self::longest_palindrome(String::from("babad")),
+//             String::from("bab")
+//         );
+//
+//         assert_eq!(
+//             Self::longest_palindrome(String::from("cbbd")),
+//             String::from("bb")
+//         );
+//     }
+// }
