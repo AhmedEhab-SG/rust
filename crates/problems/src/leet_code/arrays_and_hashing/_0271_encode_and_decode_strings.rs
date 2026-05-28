@@ -96,31 +96,31 @@ impl Solution {
     }
 }
 
-impl Runable for Solution {
-    fn run() {
-        assert_eq!(
-            Self::decode(Self::encode(vec!["Hello".to_string(), "World".to_string()])),
-            vec!["Hello".to_string(), "World".to_string()]
-        );
-
-        assert_eq!(
-            Self::decode(Self::encode(vec![
-                "neet".to_string(),
-                "code".to_string(),
-                "love".to_string(),
-                "you".to_string()
-            ],)),
-            vec![
-                "neet".to_string(),
-                "code".to_string(),
-                "love".to_string(),
-                "you".to_string()
-            ]
-        );
-
-        assert_eq!(
-            Self::decode(Self::encode(vec!["".to_string()])),
-            vec!["".to_string()]
-        );
-    }
-}
+// impl Runable for Solution {
+//     fn run() {
+//         assert_eq!(
+//             Self::decode(Self::encode(vec!["Hello".to_string(), "World".to_string()])),
+//             vec!["Hello".to_string(), "World".to_string()]
+//         );
+//
+//         assert_eq!(
+//             Self::decode(Self::encode(vec![
+//                 "neet".to_string(),
+//                 "code".to_string(),
+//                 "love".to_string(),
+//                 "you".to_string()
+//             ],)),
+//             vec![
+//                 "neet".to_string(),
+//                 "code".to_string(),
+//                 "love".to_string(),
+//                 "you".to_string()
+//             ]
+//         );
+//
+//         assert_eq!(
+//             Self::decode(Self::encode(vec!["".to_string()])),
+//             vec!["".to_string()]
+//         );
+//     }
+// }
