@@ -1,5 +1,6 @@
 # Auto-detect text files and normalize
 * text=auto eol=lf
+**/* text=auto eol=lf
 
 # Explicitly force these to LF
 *.rs text eol=lf
