@@ -1,2 +1,10 @@
-/target
+# Cargo
+/target/
 /Cargo.lock
+
+# Rust/Cargo backups
+**/*.rs.bk
+
+# OS
+.DS_Store
+Thumbs.db
